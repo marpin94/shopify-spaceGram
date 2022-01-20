@@ -37,12 +37,11 @@ function render(data) {
         title.classList.add('card-title')
         title.textContent = photo.title
 
-        //Create photo description
+        //Create photo date
         const p = document.createElement('p')
-        p.id ='img-description'
+        p.id ='img-date'
         p.classList.add('card-text')
-        p.textContent = photo.explanation
-
+        p.textContent = photo.date
         //Add image to card
         let img = document.createElement('img')
         img.classList.add('card-img-top')
